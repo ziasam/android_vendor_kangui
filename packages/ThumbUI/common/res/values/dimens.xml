@@ -1,0 +1,5 @@
+<resources>
+    <dimen name="action_bar_default_height_material">300dp</dimen>
+    <dimen name="action_bar_height">300dp</dimen>
+    <dimen name="text_size_title_material_toolbar">34dp</dimen>
+</resources>
