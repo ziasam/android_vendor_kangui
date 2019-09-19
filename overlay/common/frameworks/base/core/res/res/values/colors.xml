@@ -37,4 +37,9 @@
     <color name="accent_material_dark">#ff058fff</color>
     <color name="error_color_material_dark">#ffe25142</color>
     <color name="error_color_material_light">#ffd93025</color>
+     
+    <color name="gradient_start_light">@color/accent_material_light</color>
+    <color name="gradient_start_dark">@color/accent_material_dark</color>
+    <color name="gradient_end_light">#ff00ffd2</color>
+    <color name="gradient_end_dark">#ff00ffd2</color>
 </resources>
