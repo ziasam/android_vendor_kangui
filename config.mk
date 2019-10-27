@@ -61,3 +61,7 @@ endif
 # Apps
 PRODUCT_PACKAGES += \
     ThemePicker
+
+# Themes
+PRODUCT_PACKAGES += \
+    RevengeOSCustomisation
