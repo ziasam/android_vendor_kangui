@@ -62,6 +62,11 @@ endif
 PRODUCT_PACKAGES += \
     ThemePicker
 
+# Gradients
+PRODUCT_PACKAGES += \
+    GradientSkyline \
+    GradientSublime
+
 # Themes
 PRODUCT_PACKAGES += \
     RevengeOSCustomisation
