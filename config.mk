@@ -28,10 +28,19 @@ PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/fonts/Aileron-SemiBold.otf:$(TARGET_COPY_OUT_PRODUCT)/fonts/Aileron-SemiBold.otf \
     $(LOCAL_PATH)/fonts/Aileron-SemiBoldItalic.otf:$(TARGET_COPY_OUT_PRODUCT)/fonts/Aileron-SemiBoldItalic.otf \
     $(LOCAL_PATH)/fonts/Aileron-Bold.otf:$(TARGET_COPY_OUT_PRODUCT)/fonts/Aileron-Bold.otf \
-    $(LOCAL_PATH)/fonts/Aileron-BoldItalic.otf:$(TARGET_COPY_OUT_PRODUCT)/fonts/Aileron-BoldItalic.otf
+    $(LOCAL_PATH)/fonts/Aileron-BoldItalic.otf:$(TARGET_COPY_OUT_PRODUCT)/fonts/Aileron-BoldItalic.otf \
+    $(LOCAL_PATH)/fonts/Inter-Light.ttf:$(TARGET_COPY_OUT_PRODUCT)/fonts/Inter-Light.ttf \
+    $(LOCAL_PATH)/fonts/Inter-LightItalic.ttf:$(TARGET_COPY_OUT_PRODUCT)/fonts/Inter-LightItalic.ttf \
+    $(LOCAL_PATH)/fonts/Inter-Regular.ttf:$(TARGET_COPY_OUT_PRODUCT)/fonts/Inter-Regular.ttf \
+    $(LOCAL_PATH)/fonts/Inter-Italic.ttf:$(TARGET_COPY_OUT_PRODUCT)/fonts/Inter-Italic.ttf \
+    $(LOCAL_PATH)/fonts/Inter-Medium.ttf:$(TARGET_COPY_OUT_PRODUCT)/fonts/Inter-Medium.ttf \
+    $(LOCAL_PATH)/fonts/Inter-MediumItalic.ttf:$(TARGET_COPY_OUT_PRODUCT)/fonts/Inter-Medium.ttf \
+    $(LOCAL_PATH)/fonts/Inter-Bold.ttf:$(TARGET_COPY_OUT_PRODUCT)/fonts/Inter-Bold.ttf \
+    $(LOCAL_PATH)/fonts/Inter-BoldItalic.ttf:$(TARGET_COPY_OUT_PRODUCT)/fonts/Inter-BoldItalic.ttf
 
 PRODUCT_PACKAGES += \
-    FontAileronOverlay
+    FontAileronOverlay \
+    FontInterOverlay
 
 # Include package overlays
 PRODUCT_ENFORCE_RRO_EXCLUDED_OVERLAYS += $(LOCAL_PATH)/overlay
