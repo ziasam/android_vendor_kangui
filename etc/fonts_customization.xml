@@ -1,0 +1,13 @@
+<fonts-modification version="1">
+    <family customizationType="new-named-family" name="aileron">
+        <font weight="300" style="normal">Aileron-Light.otf</font>
+        <font weight="300" style="italic">Aileron-LightItalic.otf</font>
+        <font weight="400" style="normal">Aileron-Regular.otf</font>
+        <font weight="400" style="italic">Aileron-Italic.otf</font>
+        <font weight="600" style="normal">Aileron-SemiBold.otf</font>
+        <font weight="600" style="italic">Aileron-SemiBoldItalic.otf</font>
+        <font weight="700" style="normal">Aileron-Bold.otf</font>
+        <font weight="700" style="italic">Aileron-BoldItalic.otf</font>
+    </family>
+    <alias name="aileron-semibold" to="aileron" weight="600" />
+</fonts-modification>

@@ -18,6 +18,21 @@ LOCAL_PATH := vendor/revengeui
 PRODUCT_PROPERTY_OVERRIDES += \
     ro.wallpapers_loc_request_suw=true
 
+# Fonts
+PRODUCT_COPY_FILES += \
+    $(LOCAL_PATH)/etc/fonts_customization.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/fonts_customization.xml \
+    $(LOCAL_PATH)/fonts/Aileron-Light.otf:$(TARGET_COPY_OUT_PRODUCT)/fonts/Aileron-Light.otf \
+    $(LOCAL_PATH)/fonts/Aileron-LightItalic.otf:$(TARGET_COPY_OUT_PRODUCT)/fonts/Aileron-LightItalic.otf \
+    $(LOCAL_PATH)/fonts/Aileron-Regular.otf:$(TARGET_COPY_OUT_PRODUCT)/fonts/Aileron-Regular.otf \
+    $(LOCAL_PATH)/fonts/Aileron-Italic.otf:$(TARGET_COPY_OUT_PRODUCT)/fonts/Aileron-Italic.otf \
+    $(LOCAL_PATH)/fonts/Aileron-SemiBold.otf:$(TARGET_COPY_OUT_PRODUCT)/fonts/Aileron-SemiBold.otf \
+    $(LOCAL_PATH)/fonts/Aileron-SemiBoldItalic.otf:$(TARGET_COPY_OUT_PRODUCT)/fonts/Aileron-SemiBoldItalic.otf \
+    $(LOCAL_PATH)/fonts/Aileron-Bold.otf:$(TARGET_COPY_OUT_PRODUCT)/fonts/Aileron-Bold.otf \
+    $(LOCAL_PATH)/fonts/Aileron-BoldItalic.otf:$(TARGET_COPY_OUT_PRODUCT)/fonts/Aileron-BoldItalic.otf
+
+PRODUCT_PACKAGES += \
+    FontAileronOverlay
+
 # Include package overlays
 PRODUCT_ENFORCE_RRO_EXCLUDED_OVERLAYS += $(LOCAL_PATH)/overlay
 DEVICE_PACKAGE_OVERLAYS += \
