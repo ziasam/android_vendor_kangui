@@ -64,6 +64,7 @@ PRODUCT_PACKAGES += \
 
 # Gradients
 PRODUCT_PACKAGES += \
+    ColorStyleSolid \
     GradientSkyline \
     GradientSublime
 
