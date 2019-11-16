@@ -61,7 +61,7 @@ endif
 # Apps
 PRODUCT_PACKAGES += \
     RevengeMessages \
-    ThemePicker
+    RevengeOSThemePicker
 
 # Gradients
 PRODUCT_PACKAGES += \
