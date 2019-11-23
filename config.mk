@@ -66,8 +66,16 @@ PRODUCT_PACKAGES += \
 # Gradients
 PRODUCT_PACKAGES += \
     ColorStyleSolid \
+    GradientBurningOrange \
+    GradientNightMare \
+    GradientOrangeFun \
+    GradientPurple \
+    GradientQuepal \
+    GradientSkyBlue \
     GradientSkyline \
-    GradientSublime
+    GradientSublime \
+    GradientSunset \
+    GradientVanusa
 
 # Themes
 PRODUCT_PACKAGES += \
