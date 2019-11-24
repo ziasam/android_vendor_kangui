@@ -49,7 +49,8 @@ PRODUCT_PACKAGES += \
     LiveWallpapersPicker \
     ThemePicker \
     Flipendo \
-    CustomDoze
+    CustomDoze \
+    OPScreenRecorder 
 
 # Themes
 PRODUCT_PACKAGES += \
