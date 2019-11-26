@@ -60,6 +60,7 @@ endif
 
 # Apps
 PRODUCT_PACKAGES += \
+    LiveWallpapersPicker \
     RevengeMessages \
     RevengeOSThemePicker
 
