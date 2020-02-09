@@ -11,4 +11,5 @@ LOCAL_DEX_PREOPT := false
 LOCAL_OVERRIDES_PACKAGES := WallpaperPicker2 ThemePicker
 LOCAL_PRIVILEGED_MODULE := true
 LOCAL_PRODUCT_MODULE := true
+LOCAL_REQUIRED_MODULES := privapp_whitelist_com.android.wallpaper
 include $(BUILD_PREBUILT)
