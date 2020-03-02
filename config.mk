@@ -76,7 +76,8 @@ PRODUCT_PACKAGES += \
     GradientSkyline \
     GradientSublime \
     GradientSunset \
-    GradientVanusa
+    GradientVanusa \
+    GradientJuicyCake
 
 # Themes
 PRODUCT_PACKAGES += \
