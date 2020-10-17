@@ -1,4 +1,4 @@
-# Copyright (C) 2019 KangOS
+# Copyright (C) 2019 RevengeOS
 #
 # Licensed under the Apache License, Version 2.0 (the "License");
 # you may not use this file except in compliance with the License.
@@ -42,14 +42,14 @@ else ifeq ($(TARGET_BOOT_ANIMATION_RES),1080)
 else ifeq ($(TARGET_BOOT_ANIMATION_RES),1440)
      PRODUCT_COPY_FILES += vendor/revengeui/media/bootanimation_1440.zip:system/media/bootanimation.zip
 else
-    $(error "KangOS: TARGET_BOOT_ANIMATION_RES is undefined")
+    $(error "RevengeOS: TARGET_BOOT_ANIMATION_RES is undefined")
 endif
 
 # Apps
 PRODUCT_PACKAGES += \
     LiveWallpapersPicker \
     RevengeMessages \
-    KangOSThemePicker
+    RevengeOSThemePicker
 
 # Gradients
 PRODUCT_PACKAGES += \
@@ -68,4 +68,4 @@ PRODUCT_PACKAGES += \
 
 # Themes
 PRODUCT_PACKAGES += \
-    KangOSCustomisation
+    RevengeOSCustomisation
