@@ -49,7 +49,7 @@ endif
 PRODUCT_PACKAGES += \
     LiveWallpapersPicker \
     RevengeMessages \
-    RevengeOSThemePicker
+    KangOSThemePicker
 
 # Gradients
 PRODUCT_PACKAGES += \
@@ -68,4 +68,4 @@ PRODUCT_PACKAGES += \
 
 # Themes
 PRODUCT_PACKAGES += \
-    RevengeOSCustomisation
+    KangOSCustomisation
