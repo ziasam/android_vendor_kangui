@@ -27,6 +27,7 @@ PRODUCT_COPY_FILES += $(call find-copy-subdir-files,*,$(LOCAL_PATH)/fonts,$(TARG
 PRODUCT_PACKAGES += \
     FontAileronOverlay \
     FontInterOverlay \
+    FontRobotoOverlay \
     FontUrbanistOverlay
 
 # Include package overlays
