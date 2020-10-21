@@ -44,4 +44,6 @@
     <color name="gradient_start_dark">@color/accent_material_dark</color>
     <color name="gradient_end_light">#ff00ffd2</color>
     <color name="gradient_end_dark">#ff00ffd2</color>
+    <color name="du_themes_qs_inactive_color">#FF4E4F53</color>
+
 </resources>
