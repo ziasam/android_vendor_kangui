@@ -1,4 +1,4 @@
-# Copyright (C) 2019 RevengeOS
+# Copyright (C) 2020 KangOS
 #
 # Licensed under the Apache License, Version 2.0 (the "License");
 # you may not use this file except in compliance with the License.
@@ -50,7 +50,7 @@ endif
 PRODUCT_PACKAGES += \
     LiveWallpapersPicker \
     RevengeMessages \
-    KangOSThemePicker
+    ThemePicker
 
 # Gradients
 PRODUCT_PACKAGES += \
