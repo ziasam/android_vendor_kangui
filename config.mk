@@ -51,7 +51,8 @@ endif
 PRODUCT_PACKAGES += \
     LiveWallpapersPicker \
     RevengeMessages \
-    ThemePicker
+    ThemePicker \
+    Flipendo 
 
 # Themes
 PRODUCT_PACKAGES += \
