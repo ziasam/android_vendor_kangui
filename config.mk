@@ -53,21 +53,6 @@ PRODUCT_PACKAGES += \
     RevengeMessages \
     ThemePicker
 
-# Gradients
-PRODUCT_PACKAGES += \
-    ColorStyleSolid \
-    GradientBurningOrange \
-    GradientNightMare \
-    GradientOrangeFun \
-    GradientPurple \
-    GradientQuepal \
-    GradientSkyBlue \
-    GradientSkyline \
-    GradientSublime \
-    GradientSunset \
-    GradientVanusa \
-    GradientJuicyCake
-
 # Themes
 PRODUCT_PACKAGES += \
     KangOSCustomisation
