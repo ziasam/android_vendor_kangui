@@ -48,7 +48,8 @@ endif
 PRODUCT_PACKAGES += \
     LiveWallpapersPicker \
     ThemePicker \
-    Flipendo 
+    Flipendo \
+    CustomDoze
 
 # Themes
 PRODUCT_PACKAGES += \
