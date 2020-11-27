@@ -40,17 +40,13 @@ ifeq ($(TARGET_BOOT_ANIMATION_RES),720)
      PRODUCT_COPY_FILES += vendor/revengeui/media/bootanimation_720.zip:system/media/bootanimation.zip
 else ifeq ($(TARGET_BOOT_ANIMATION_RES),1080)
      PRODUCT_COPY_FILES += vendor/revengeui/media/bootanimation_1080.zip:system/media/bootanimation.zip
-else ifeq ($(TARGET_BOOT_ANIMATION_RES),1440)
-     PRODUCT_COPY_FILES += vendor/revengeui/media/bootanimation_1440.zip:system/media/bootanimation.zip
 else
-     $(warning "KangOS: TARGET_BOOT_ANIMATION_RES is undefined, assuming 1080p.")
      PRODUCT_COPY_FILES += vendor/revengeui/media/bootanimation_1080.zip:system/media/bootanimation.zip
 endif
 
 # Apps
 PRODUCT_PACKAGES += \
     LiveWallpapersPicker \
-    RevengeMessages \
     ThemePicker \
     Flipendo 
 
